@@ -1,0 +1,19 @@
+foodID,foodName,vendor,foodCategory,foodType,foodConstituents,foodCalories,date,timing,Price,totalRatings,avgRating,imageUrl
+FD1,South Indian Meals,VendorA,Veg,meals,Rice| Sambar| Rasam| Papad| Curry| Curd,650,4-Apr-15,Lunch,60,345,2.3,southindiannonveg.jpg
+FD2,North Indian Meals,VendorA,Veg,meals,Roti| Sambar| Rasam| Papad| Sweet,680,4-Apr-15,Lunch,60,223,4.3,northindianveg.jpg
+FD3,Chapathi - Egg Curry,VendorA,NonVeg,Tiffin,Chapathi - 3 | Egg - 2,520,4-Apr-15,Lunch,50,34,2.5,chapathiegg.jpg
+FD4,Chapathi - Chicken Curry,VendorA,NonVeg,Tiffin,Chapathi - 3 | Chicken Curry,540,4-Apr-15,Lunch,60,56,4.3,chapathichicken.jpg
+FD5,Chapathi - Dal,VendorA,Veg,meals,Chapathi -3| Dal,450,4-Apr-15,Lunch,40,112,3.1,chapathidal.jpg
+FD6,Meals - Non Veg,VendorA,NonVeg,meals,Rice| Sambar| Rasam| Papad| Chicken 65,900,4-Apr-15,Lunch,70,787,4.8,southindiannonveg.jpg
+FD7,Dosa,VendorB,Veg,Tiffin,1 Dosa| Sambhar| Chutney,350,4-Apr-15,Lunch,30,544,4.9,dosa.jpg
+FD8,Neeru Dosa,VendorB,Veg,Tiffin,1 Neeru Dosa| Sambhar| Chutney,380,4-Apr-15,Lunch,35,334,2.4,neerudosa.jpg
+FD9,Masala Dosa,VendorB,Veg,Tiffin,1 Masala Dosa| Sambhar| Chutney,380,4-Apr-15,Lunch,35,575,3.4,masaladosa.jpg
+FD10,Idli,VendorB,Veg,Tiffin,2 Idli| 1 Vada| Sambhar| Chutney,380,4-Apr-15,Lunch,25,34,2.2,idli.jpg
+FD11,Paneer Sandwich,VendorC,Veg,Deli,Brown Bread| Panner| Capsicum| Onion,320,4-Apr-15,Lunch,30,65,1.4,paneersandwich.jpg
+FD12,Egg Sandwich,VendorC,NonVeg,deli,Brown Bread| Egg| Capsicum| Onion,320,4-Apr-15,Lunch,30,34,0.4,eggsandwich.jpg
+FD13,Samosa,VendorC,Veg,Snack,Aloo| Onion| Chilli| Deep Oil Fried,280,4-Apr-15,Lunch,20,32,0.5,samosa.jpg
+FD14,VadaPav,VendorC,Veg,Snack,Aloo| Bread| Chilli,280,4-Apr-15,Lunch,25,43,3.4,vadapav.jpg
+FD15,Juices,VendorC,Veg,Snack,Apple| Orange| Grapes| Lemmon| Butter Milk,120,4-Apr-15,Lunch,15,887,1.3,juices.jpg
+FD16,Hyderabadi Biriyani - Veg,Vendor D,Veg,meals,Basmati Rice| Spices| Vegetables,750,4-Apr-15,Lunch,45,213,2.4,hyderabadibiriyaniveg.jpg
+FD17,Hyderabadi Biriyani - Egg,Vendor D,NonVeg,meals,Basmati Rice| Spices| Egg,850,4-Apr-15,Lunch,50,180,3.2,hyderabadibiriyaniegg.jpg
+FD18,Hyderabadi Biriyani - Chicken,Vendor D,NonVeg,meals,Basmati Rice| Spices| Chicken,900,4-Apr-15,Lunch,60,560,4.6,hyderabadibiriyanichicken.jpg

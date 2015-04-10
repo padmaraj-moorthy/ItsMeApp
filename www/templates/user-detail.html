@@ -1,0 +1,16 @@
+
+<!-- 
+var obj = '{\"userName\" : \"'+ uName +'\", \"email\" :\"'+ email +'\", \"message\" :\"'+ message +'\", \"photoUrl\" : \"'+ imageName +'\"}';
+-->
+<ion-view view-title="User Detail">
+  <ion-content>
+      <ion-item class="item-thumbnail item-icon-right" ng-repeat="user in userItem" type="item-text-wrap">
+        <img style="border-radius: 3%;" ng-src="http://t2sapp-185143.apse1.nitrousbox.com/{{user.photoUrl}}" height="300px" width="230px"/>
+        <h1><b>{{user.userName}}</b></h1> <hr>
+          <h3> <font color=blue>Email            : {{user.email}} <font> </h3><hr>
+          <h3> <font color=red>Message            : {{user.message}} <font> </h3><hr>
+       </ion-item>
+
+
+  </ion-content>
+</ion-view>

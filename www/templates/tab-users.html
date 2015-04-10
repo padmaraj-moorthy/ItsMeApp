@@ -1,0 +1,16 @@
+<ion-view view-title="Users">
+  <ion-content>
+    <ion-refresher pulling-text="Refreshing Data..." on-refresh="doRefresh()">
+    </ion-refresher>
+    <ion-list>
+      <ion-item class="item-avatar item-icon-right" ng-repeat="user in users" type="item-text-wrap" href="#/tab/users/{{user.userName}}">
+        <img style="border-radius: 25%;" ng-src="http://t2sapp-185143.apse1.nitrousbox.com/{{user.photoUrl}}">
+        <h3>{{user.userName}} ({{user.email}}) </h3>
+        <h2> <font color=blue>{{user.message}}</font></h2>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+    </ion-list>
+
+
+  </ion-content>
+</ion-view>

@@ -1,0 +1,13 @@
+{
+  "name": "demoapp",
+  "version": "1.0.0",
+  "description": "demoApp: An Ionic project",
+  "dependencies": {
+    "angular-file-upload": "^1.6.4"
+  },
+  "devDependencies": {},
+  "cordovaPlugins": [
+    "org.apache.cordova.file",
+    "org.apache.cordova.file-transfer"
+  ]
+}

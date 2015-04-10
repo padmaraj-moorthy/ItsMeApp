@@ -1,0 +1,31 @@
+<ion-view view-title="Register">
+  <ion-content>
+
+     <div class="list">
+      <label class="item item-input">
+      <span class="input-label">Name</span>
+      <input type="text" ng-model="user.name">
+      </label>
+      <label class="item item-input">
+      <span class="input-label">Email</span>
+      <input type="text" ng-model="user.email">
+      </label>
+      <label class="item item-input">
+      <span class="input-label">Message</span>
+      <input type="text" ng-model="user.message">
+      </label>
+      
+
+    <img ng-show="imgURI !== undefined" ng-src="{{imgURI}}">
+    <img ng-show="imgURI === undefined" ng-src="http://placehold.it/200x200">  
+    <button class="button" ng-click="takePicture()"> Capture My Beatuy! </button>
+
+    <label class="item item-input">
+      <button class="button button-block button-assertive" ng-click="createUser()">
+      Sign Up
+      </button>
+      </label>
+   </div>
+
+  </ion-content>
+</ion-view>

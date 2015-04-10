@@ -1,0 +1,44 @@
+<ion-view view-title="Today's Menu">
+  <ion-content>
+
+  <!--
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">
+        <img ng-src="{{chat.face}}">
+        <h2>{{chat.name}}</h2>
+        <p>{{chat.lastText}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+        <ion-option-button class="button-assertive" ng-click="remove(chat)">
+          Delete
+        </ion-option-button>
+      </ion-item>
+    </ion-list>
+-->
+
+      <div id="search-box" class="bar bar-header item-input-inset">
+        <div class="item-input-wrapper">
+          <i class="icon ion-ios7-search placeholder-icon"></i>
+          <input type="search" placeholder="Search" ng-model="menu.searchQuery">  
+        </div>
+      </div>
+
+    <ion-list>
+      <ion-item class="item-avatar item-icon-right" ng-repeat="menuItem in menuItems | orderBy:'vendor':false | filter: menu.searchQuery" type="item-text-wrap">
+        <img style="border-radius: 25%;" ng-src="http://t2sapp-185143.apse1.nitrousbox.com/{{menuItem.imageUrl}}"/>
+        <h3>{{menuItem.foodName}}</h3>
+        <h4> <font color=grey>{{menuItem.foodConstituents}}</font> </h4>
+        <h4> <font color=grey>{{menuItem.vendor}}</font> </h4>
+        <h4>  </h4>
+        <i class="icon icon-accessory"> 
+          <font color=blue>{{menuItem.Price}} Rs  <br>
+          <font color=red size=2>{{menuItem.avgRating}}/5 , <font color=green> {{menuItem.totalRatings}} Ratings <br>
+          <font color=orange size=2>{{menuItem.foodCalories}} Calories
+          </font>
+        </i>
+      </ion-item>
+    </ion-list>
+
+
+  </ion-content>
+</ion-view>
