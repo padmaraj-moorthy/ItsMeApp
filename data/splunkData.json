@@ -1,0 +1,181 @@
+{
+  "documents": [
+    {
+      "_id": "6660dc3e084d59d920e3d9b2",
+      "results": [
+        {
+          "timestamp": "2024-06-06T14:32:21.000Z",
+          "service_name": "user-authentication",
+          "endpoint": "/api/v1/login",
+          "response_time_ms": 123,
+          "status_code": 200,
+          "request_method": "POST",
+          "client_ip": "192.168.1.10",
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+          "session_id": "abcd1234efgh5678",
+          "response_size_bytes": 512
+        },
+        {
+          "timestamp": "2024-06-06T14:32:25.000Z",
+          "service_name": "user-authentication",
+          "endpoint": "/api/v1/login",
+          "response_time_ms": 98,
+          "status_code": 401,
+          "request_method": "POST",
+          "client_ip": "192.168.1.11",
+          "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15",
+          "session_id": "ijkl9012mnop3456",
+          "response_size_bytes": 256
+        },
+        {
+          "timestamp": "2024-06-06T14:32:30.000Z",
+          "service_name": "user-authentication",
+          "endpoint": "/api/v1/logout",
+          "response_time_ms": 45,
+          "status_code": 200,
+          "request_method": "POST",
+          "client_ip": "192.168.1.12",
+          "user_agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0",
+          "session_id": "qrst5678uvwx1234",
+          "response_size_bytes": 128
+        }
+      ],
+      "fields": [
+        "timestamp",
+        "service_name",
+        "endpoint",
+        "response_time_ms",
+        "status_code",
+        "request_method",
+        "client_ip",
+        "user_agent",
+        "session_id",
+        "response_size_bytes"
+      ],
+      "messages": [
+        {
+          "type": "INFO",
+          "text": "Search executed successfully"
+        }
+      ]
+    },
+    {
+      "_id": "6660dc74084d59d920e48ad9",
+      "results": [
+        {
+          "timestamp": "2024-06-06T15:05:10.000Z",
+          "service_name": "payment-processing",
+          "endpoint": "/api/v1/transactions",
+          "response_time_ms": 245,
+          "status_code": 201,
+          "request_method": "POST",
+          "client_ip": "203.0.113.1",
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+          "transaction_id": "txn123456",
+          "response_size_bytes": 1024
+        },
+        {
+          "timestamp": "2024-06-06T15:05:15.000Z",
+          "service_name": "payment-processing",
+          "endpoint": "/api/v1/transactions",
+          "response_time_ms": 300,
+          "status_code": 500,
+          "request_method": "POST",
+          "client_ip": "203.0.113.2",
+          "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15",
+          "transaction_id": "txn789012",
+          "response_size_bytes": 512
+        },
+        {
+          "timestamp": "2024-06-06T15:05:20.000Z",
+          "service_name": "payment-processing",
+          "endpoint": "/api/v1/transactions",
+          "response_time_ms": 150,
+          "status_code": 200,
+          "request_method": "POST",
+          "client_ip": "203.0.113.3",
+          "user_agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0",
+          "transaction_id": "txn345678",
+          "response_size_bytes": 768
+        }
+      ],
+      "fields": [
+        "timestamp",
+        "service_name",
+        "endpoint",
+        "response_time_ms",
+        "status_code",
+        "request_method",
+        "client_ip",
+        "user_agent",
+        "transaction_id",
+        "response_size_bytes"
+      ],
+      "messages": [
+        {
+          "type": "INFO",
+          "text": "Search executed successfully"
+        }
+      ]
+    },
+    {
+      "_id": "6660dc98084d59d920e4f5c5",
+      "results": [
+        {
+          "timestamp": "2024-06-06T16:45:00.000Z",
+          "service_name": "inventory-management",
+          "endpoint": "/api/v1/items",
+          "response_time_ms": 89,
+          "status_code": 200,
+          "request_method": "GET",
+          "client_ip": "198.51.100.1",
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+          "item_id": "item12345",
+          "response_size_bytes": 1024
+        },
+        {
+          "timestamp": "2024-06-06T16:45:05.000Z",
+          "service_name": "inventory-management",
+          "endpoint": "/api/v1/items",
+          "response_time_ms": 110,
+          "status_code": 404,
+          "request_method": "GET",
+          "client_ip": "198.51.100.2",
+          "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15",
+          "item_id": "item67890",
+          "response_size_bytes": 512
+        },
+        {
+          "timestamp": "2024-06-06T16:45:10.000Z",
+          "service_name": "inventory-management",
+          "endpoint": "/api/v1/items",
+          "response_time_ms": 75,
+          "status_code": 200,
+          "request_method": "GET",
+          "client_ip": "198.51.100.3",
+          "user_agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0",
+          "item_id": "item54321",
+          "response_size_bytes": 2048
+        }
+      ],
+      "fields": [
+        "timestamp",
+        "service_name",
+        "endpoint",
+        "response_time_ms",
+        "status_code",
+        "request_method",
+        "client_ip",
+        "user_agent",
+        "item_id",
+        "response_size_bytes"
+      ],
+      "messages": [
+        {
+          "type": "INFO",
+          "text": "Search executed successfully"
+        }
+      ]
+    }
+  ]
+}
